@@ -130,4 +130,7 @@ module.exports = {
     "24x36-inch": "ea628545-c557-4727-9f63-b70eb0dac97c",
     "LT": "1cad366e-2ae4-4bb8-a1e2-48f72f38e73d",
     "XL": "9d8be304-34cc-4d8a-9230-8c91c9363480",
+    "black": "d746d68d-a6e7-4b3e-8fb0-0cfe5db089af",
+    "white": "95c451fc-732c-4a20-bef3-a0088847b06c",
+    "natural-wood": "f46b52c0-ebef-4324-aba9-59867f8d1c36",
 }

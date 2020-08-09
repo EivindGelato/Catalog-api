@@ -64,7 +64,8 @@ async.forEachOfLimit(productsToRemove, 1, (element, key, cb)=>{
     cb()
   })
 })
-/*
+
+*/
 const productsToAdd = require('./sanity-data-2.json');
 async.forEachOfLimit(productsToAdd, 1, (element, key, callback)=>{
     console.time(key +'-'+ element.slug.en.current);
@@ -76,8 +77,7 @@ async.forEachOfLimit(productsToAdd, 1, (element, key, callback)=>{
     console.log('Done', productsToAdd.length)
 });
 
-*/
-
+/*
 const productsToAdd = require('./sanity-data-2.json');
 async.forEachOfLimit(productsToAdd, 1, (element, key, callback)=>{
     console.time(key +'-'+ element.slug.en.current);
@@ -89,6 +89,7 @@ async.forEachOfLimit(productsToAdd, 1, (element, key, callback)=>{
     console.log('Done', productsToAdd.length)
 });
 
+*/
 /*
 
 

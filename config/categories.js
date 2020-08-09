@@ -19,4 +19,5 @@ module.exports = {
     "posters": "8325546c-1958-4e74-b894-0a35424decc9",
     "soft-cover-photobooks": "f2ee6298-dd95-4e0b-b660-9ff4759e85e1",
     "hard-cover-photobooks": "e9801892-80a4-4117-af13-077785dc7e74",
+    "framed-posters": "ad74b8f5-8e6f-427a-806a-603632ca22ac",
 }

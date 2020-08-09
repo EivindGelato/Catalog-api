@@ -39,5 +39,10 @@ module.exports = {
         "_key": nanoid(),
         "_ref": "dffce184-8120-4010-93f6-574667f97edd",
         "_type": "reference"
+    },
+    "FrameColor": {
+        "_key": nanoid(),
+        "_ref": "f0a0244b-11cc-4376-9ffa-e17ea8cc37c8",
+        "_type": "reference"
     }
 }

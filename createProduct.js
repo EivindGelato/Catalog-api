@@ -111,8 +111,14 @@ const variationOutput = (el, image, url)=>{
     if(image){
         variationData.preview = image
     }
+    if(el.previewImageURL){
+        variationData.previewurl = el.previewImageURL
+    }
     if(url){
         variationData.previewurl = url
+    }
+    if(el.imperial == '1'){
+        variationData.imperial = true
     }
     if(formatSize){
         variationData.formatsize= {
@@ -126,6 +132,13 @@ const variationOutput = (el, image, url)=>{
             "_type": "reference"
         }
     }
+    if(el.FrameColor) {
+        variationData.framecolor= {
+            "_ref": optionMap[el.FrameColor],
+            "_type": "reference"
+        }
+    }
+    
     if(el.CoatingType) {
         variationData.coatingtype= {
             "_ref": optionMap[el.CoatingType],
